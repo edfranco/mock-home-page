@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  color: white;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.explo-logo{
+  height: 10vh;
+  max-height: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main{
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+main a{
+  color: black;
+}
+
+.content{
+    margin: 0 6em;
+    padding: 2% 1rem 2em 1em;
+}
+
+.featured{
+  margin: 2em 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured .lws{
+  margin: 1em 12em 1em 0;
+}
+
+.featured .featured-content .featured-video{
+  border: 1px solid #f0eeee;
+  height: 30vh;
+  width: 20vw;
+}
+
+.lws-pod{
+  width: 100%;
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.lws-pod-img{
+  height: 20vh;
+  padding-right: 1em;
+}
+
+
+/* footer css */
+.footer{
+  padding:1em 5em;
+  background-color: black;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-links a{
+  width: 5vw;
+  margin-right: 1em;
+  padding: 0 2em;
+  border: 1px solid white;
+  text-align: center;
 }

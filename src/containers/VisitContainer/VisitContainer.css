@@ -1,0 +1,37 @@
+.visit-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.visit-aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.aside-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.aside-links a{
+    padding-bottom: 0.3em;
+}
+
+.visit-pods{
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;   */
+}
+
+.visit-pod{
+    width: 15vw;
+    margin: 0.5em;
+    /* padding: 1em; */
+}
+
+.visit-pod img{
+    width: 15vw;
+}

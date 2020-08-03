@@ -1,0 +1,13 @@
+.nav{
+    height: 10vh;
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: black;
+    color: white;
+  }
+  
+  .nav .nav-links a{
+    padding-right: 1em;
+  }

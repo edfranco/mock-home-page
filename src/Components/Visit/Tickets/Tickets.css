@@ -1,0 +1,15 @@
+.tickets p{
+    padding: 1em 0;
+}
+
+.covid-notice{
+    background-color: rgb(228, 228, 228);
+}
+
+.covid-notice p{
+    padding: 1em;
+}
+
+.covid-notice p:first-child{
+    font-weight: bolder;
+}
