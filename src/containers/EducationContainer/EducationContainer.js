@@ -1,16 +1,14 @@
 import React from 'react';
 
+import Aside from '../../Components/Aside/Aside';
+
 function EducationContainer(){
     return(
         <div className="education container-content container content">
             <div className="education-aside aside">
                 <div className="aside-links">
-                        <a href="/education"><h4>Education</h4></a>
-                        <a>Professional Development Programs</a>
-                        <a>Tools for Teaching and Learning</a>
-                        <a>Advancing Ideas about Learning</a>
-                        <a>Community Programs</a>
-                    </div>
+                        <Aside asideHeader="Education" asideHeaderLink="/education" type="education"/>
+                </div>
             </div>
             <div>
                 <img src="https://www.exploratorium.edu/sites/default/files/styles/banner_image/public/feature_slides/1_Explainers_DSC_6707_homepage.jpg?itok=1g7Lt_aX" />

@@ -12,12 +12,12 @@ class VisitContainer extends React.Component{
         return(
             <div className="visit content">
                 <div className="visit-content">
-                <div className="visit-aside">
-                <div className="aside-links">
-                    <Aside />
-                </div>
-                </div>
-                <VisitRoutes />
+                    <div className="visit-aside">
+                        <Aside asideHeader="Visit" asideHeaderLink="./visit" type="visit" />
+                    </div>
+
+                    <VisitRoutes />
+
                 </div>
             </div>
         );

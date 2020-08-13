@@ -29,4 +29,11 @@ export const visitAsideLinks = [
     {text:'Deutsch', href:'/'},
     {text:'Português', href:'/'},
     {text:'日本語', href:'/'},
+];
+
+export const educationAsideLinks = [
+    {text:'Professional Development Programs', href:'/'},
+    {text:'Tools for Teaching and Learning', href:'/'},
+    {text:'Advancing Ideas about Learning', href:'/'},
+    {text:'Community Programs', href:'/'},
 ]
