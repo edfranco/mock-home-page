@@ -1,9 +1,9 @@
-.visit-content{
+.visit-content, .container{
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
 
-.visit-aside{
+.visit-aside, .aside{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

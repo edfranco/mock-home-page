@@ -2,6 +2,8 @@ import React from 'react';
 
 import exploLogo from '../../images/explo-logo-white.svg';
 
+import './Footer.css';
+
 function Footer(){
     return(
         <div className="footer">

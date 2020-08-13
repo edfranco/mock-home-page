@@ -1,0 +1,28 @@
+.featured{
+    margin: 2em 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .featured .lws{
+    margin: 1em 12em 1em 0;
+  }
+  
+  .featured .featured-content .featured-video{
+    border: 1px solid #f0eeee;
+    height: 30vh;
+    width: 20vw;
+  }
+  
+  .lws-pod{
+    width: 100%;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(219, 219, 219);
+  }
+  
+  .lws-pod-img{
+    height: 20vh;
+    padding-right: 1em;
+  }
