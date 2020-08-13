@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://localhost:3000/explore -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <style type="text/css">body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+</style><style type="text/css">.nav{
+    height: 10vh;
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: black;
+    color: white;
+  }
+  
+  .nav .nav-links a{
+    padding-right: 1em;
+  }</style><style type="text/css">.carousel{
+    display: flex;
+    justify-content: flex-start;
+    height: 49vh;
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  .carousel .carousel-image-container{
+    width: 80%;
+    height: 100%;
+  }
+
+  .carousel-image-container img{
+      width: 100%;
+  }
+  
+  .carousel .carousel-content{
+    width: 20%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    border-left: 1px solid black;
+  }</style><style type="text/css">.featured{
+    margin: 2em 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .featured .lws{
+    margin: 1em 12em 1em 0;
+  }
+  
+  .featured .featured-content .featured-video{
+    border: 1px solid #f0eeee;
+    height: 30vh;
+    width: 20vw;
+  }
+  
+  .lws-pod{
+    width: 100%;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(219, 219, 219);
+  }
+  
+  .lws-pod-img{
+    height: 20vh;
+    padding-right: 1em;
+  }</style><style type="text/css">.tickets p{
+    padding: 1em 0;
+}
+
+.covid-notice{
+    background-color: rgb(228, 228, 228);
+}
+
+.covid-notice p{
+    padding: 1em;
+}
+
+.covid-notice p:first-child{
+    font-weight: bolder;
+}</style><style type="text/css">.visit-content, .container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.visit-aside, .aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.aside-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.aside-links a{
+    padding-bottom: 0.3em;
+}
+
+.visit-pods{
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;   */
+}
+
+.visit-pod{
+    width: 15vw;
+    margin: 0.5em;
+    /* padding: 1em; */
+}
+
+.visit-pod img{
+    width: 15vw;
+}
+</style><style type="text/css">.footer{
+    padding:1em 5em;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .footer-links a{
+    width: 5vw;
+    margin-right: 1em;
+    padding: 0 2em;
+    border: 1px solid white;
+    text-align: center;
+  }</style><style type="text/css">*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.explo-logo{
+  height: 10vh;
+  max-height: 50px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: black;
+}
+
+main a{
+  color: black;
+}
+
+.content{
+    margin: 0 6em;
+    padding: 2% 1rem 2em 1em;
+}</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="App"><div class="nav"><a href="http://localhost:3000/"><img class="explo-logo" src="./React App_files/explo-logo-white.715bba07.svg" height="50" width="200" alt="explo logo"></a><div class="nav-links"><a href="http://localhost:3000/visit">Visit</a><a href="http://localhost:3000/education">Education</a><a href="http://localhost:3000/explore">Explore</a><a>About Us</a><a>Join + Support</a><a>Store</a></div><div class="form-item form-type-textfield form-item-keys-15"><input placeholder="" type="text" id="edit-keys-15" name="keys_15" size="15" maxlength="128" class="form-text" value=""><input alt="submit" title="Submit search" class="custom-search-button form-submit form-submit" type="image" id="edit-submit-15" name="submit_15" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAQAAAD8x0bcAAAArElEQVR4Aa3KgUaDYRSA4VOEUkmgCIAgIAACIqSLSAwYQICuoQbARAgiBArBgDApgIDwgVIbjJlnMJvfGRv2AC9vLJ51F17dq9mM6ez7RcenvuI4Mqu+FOfWIuxo6TnIUx1n49pQPObpwV+l7/zk6dlHpa/956lhYHfS3r3k6RAtW6Oq4SgyVyiabrTxrW4pMqfa6Hpz4hLN6pZY8TTPtuxW3jINxV7MYjsWbAiTZYLHg0wjYgAAAABJRU5ErkJggg==" value="Search"></div></div><main><div class="education container-content container content"><div class="education-aside aside"><div class="aside-links"><div class="aside-links"><a href="http://localhost:3000/Explore"><h4>Explore</h4></a><a href="http://localhost:3000/">Arts</a><a href="http://localhost:3000/">History</a><a href="http://localhost:3000/">Mathematics</a></div></div></div><div><img src="./React App_files/Tinkering-at-home-960x380_0.jpg"><h1>Explore, Play, Discover: Websites, Activities, and More</h1><p>Dive into websites, activities, apps, and more.</p></div></div></main><div class="footer"><img class="explo-logo" src="./React App_files/explo-logo-white.715bba07.svg"><div class="footer-links"><a>visit</a><a>join</a><a>give</a></div></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="./React App_files/bundle.js"></script><script src="./React App_files/0.chunk.js"></script><script src="./React App_files/main.chunk.js"></script><script src="./React App_files/main.23af62c19210ff7008a0.hot-update.js"></script>
+
+</body></html>

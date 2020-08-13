@@ -5,6 +5,7 @@ import Index from '../Components/Index/Index';
 import VisitContainer from '../containers/VisitContainer/VisitContainer';
 import EducationContainer from '../containers/EducationContainer/EducationContainer';
 import ExploreContainer from '../containers/ExploreContainer/ExploreContainer';
+import AboutContainer from '../containers/AboutContainer/AboutContainer';
 
 const Routes = () => {
     return (
@@ -13,6 +14,7 @@ const Routes = () => {
             <Route path="/visit" component={VisitContainer} loc="/visit" />
             <Route path="/education" component={EducationContainer} />
             <Route path="/explore" component={ExploreContainer} />
+            <Route path="/about" component={AboutContainer} />
         </Switch>
     );
 };

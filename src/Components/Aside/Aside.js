@@ -3,6 +3,7 @@ import React from 'react';
 import {visitAsideLinks as VISITLINKS} from '../../constants/asideLinks/asideLinks';
 import {educationAsideLinks as EDUCATIONLINKS} from '../../constants/asideLinks/asideLinks';
 import {exploreAsideLinks as EXPLORELINKS} from '../../constants/asideLinks/asideLinks';
+import {aboutAsideLinks as ABOUTLINKS} from '../../constants/asideLinks/asideLinks';
 
 class Aside extends React.Component{
     state={
@@ -17,6 +18,8 @@ class Aside extends React.Component{
             this.setState({links:EDUCATIONLINKS})
         } else if(this.props.type=="explore"){
             this.setState({links:EXPLORELINKS})
+        } else if(this.props.type=="about"){
+            this.setState({links:ABOUTLINKS})
         }
         this.setState({header:this.props.asideHeader})
     }
