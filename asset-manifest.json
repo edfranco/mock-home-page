@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mock-home-page/static/css/main.6cf8dad8.chunk.css",
+    "main.js": "/mock-home-page/static/js/main.0e63c9b3.chunk.js",
+    "main.js.map": "/mock-home-page/static/js/main.0e63c9b3.chunk.js.map",
+    "runtime-main.js": "/mock-home-page/static/js/runtime-main.782863fb.js",
+    "runtime-main.js.map": "/mock-home-page/static/js/runtime-main.782863fb.js.map",
+    "static/js/2.7ce246f7.chunk.js": "/mock-home-page/static/js/2.7ce246f7.chunk.js",
+    "static/js/2.7ce246f7.chunk.js.map": "/mock-home-page/static/js/2.7ce246f7.chunk.js.map",
+    "index.html": "/mock-home-page/index.html",
+    "precache-manifest.3395ebdea7243fc6d49768618c9020ec.js": "/mock-home-page/precache-manifest.3395ebdea7243fc6d49768618c9020ec.js",
+    "service-worker.js": "/mock-home-page/service-worker.js",
+    "static/css/main.6cf8dad8.chunk.css.map": "/mock-home-page/static/css/main.6cf8dad8.chunk.css.map",
+    "static/js/2.7ce246f7.chunk.js.LICENSE.txt": "/mock-home-page/static/js/2.7ce246f7.chunk.js.LICENSE.txt",
+    "static/media/explo-logo-white.svg": "/mock-home-page/static/media/explo-logo-white.715bba07.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.782863fb.js",
+    "static/js/2.7ce246f7.chunk.js",
+    "static/css/main.6cf8dad8.chunk.css",
+    "static/js/main.0e63c9b3.chunk.js"
+  ]
+}
