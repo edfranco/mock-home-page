@@ -13,7 +13,7 @@ function Nav(){
             <div className="nav-links">
                 <Link to="/visit">Visit</Link>
                 <Link to="/education">Education</Link>
-                <a>Explore</a>
+                <Link to="/explore">Explore</Link>
                 <a>About Us</a>
                 <a>Join + Support</a>
                 <a>Store</a>

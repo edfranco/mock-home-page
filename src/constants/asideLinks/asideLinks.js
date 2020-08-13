@@ -37,3 +37,8 @@ export const educationAsideLinks = [
     {text:'Advancing Ideas about Learning', href:'/'},
     {text:'Community Programs', href:'/'},
 ]
+export const exploreAsideLinks = [
+    {text:'Arts', href:'/'},
+    {text:'History', href:'/'},
+    {text:'Mathematics', href:'/'},
+]
