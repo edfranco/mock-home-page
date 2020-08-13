@@ -13,7 +13,7 @@ class VisitContainer extends React.Component{
             <div className="visit content">
                 <div className="visit-content">
                     <div className="visit-aside">
-                        <Aside asideHeader="Visit" asideHeaderLink="./visit" type="visit" />
+                        <Aside asideHeader="Visit" asideHeaderLink="/visit" type="visit" />
                     </div>
 
                     <VisitRoutes />
