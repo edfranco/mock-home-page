@@ -13,16 +13,16 @@ class Aside extends React.Component{
 
     componentDidMount(){
         if(this.props.type == 'visit'){
-            this.setState({links:VISITLINKS})
+            this.setState({links:VISITLINKS});
         } else if (this.props.type =="education"){
-            this.setState({links:EDUCATIONLINKS})
+            this.setState({links:EDUCATIONLINKS});
         } else if(this.props.type=="explore"){
-            this.setState({links:EXPLORELINKS})
+            this.setState({links:EXPLORELINKS});
         } else if(this.props.type=="about"){
-            this.setState({links:ABOUTLINKS})
+            this.setState({links:ABOUTLINKS});
         }
-        this.setState({header:this.props.asideHeader})
-    }
+        this.setState({header:this.props.asideHeader});
+    };
 
     displayAside = () =>{
         let elements = [];
@@ -35,7 +35,6 @@ class Aside extends React.Component{
     }
     
     render(){
-        console.log(this.props.type)
         return(
             <div className="aside-links">
                 <a href={this.props.asideHeaderLink}><h4>{this.props.asideHeader}</h4></a>

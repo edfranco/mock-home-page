@@ -29,4 +29,52 @@ export const VISITPODS = [
         header: 'Become a Member',
         content: "Help the Exploratorium recover! Enjoy member perks now, plus 12 months of free entry and more when we reopen.",
     },
+];
+
+export const EXPLOREPODS = [
+    {
+        image: 'https://www.exploratorium.edu/sites/default/files/styles/pod_small_wide_260_x_146/public/brightcove_stills/979328832001_1839175140001_explore-480.jpg?itok=B78PPpWB',
+        header: 'Exploring Distant Worlds on Earth',
+        content: "Explore other planets—or remote places here on Earth.",
+    },
+    {
+        image: 'https://www.exploratorium.edu/sites/default/files/styles/pod_small_wide_260_x_146/public/external-content/arctic-birds_0.jpg?itok=i0D87XyF',
+        header: 'Arctic Birds',
+        content: "Summertime in the Arctic is for the birds",
+    },
+    {
+        image: 'https://www.exploratorium.edu/sites/default/files/styles/pod_small_wide_260_x_146/public/brightcove_stills/979328832001_1826615174001_land-720.jpg?itok=QrcVOkRy',
+        header: 'Time on Mars',
+        content: "Time is time wherever you are...right?",
+    },
+    {
+        image: 'https://www.exploratorium.edu/sites/default/files/styles/pod_small_wide_260_x_146/public/great_satellite_search.jpg?itok=5FHlglsE',
+        header: 'The Great Satellite Search!',
+        content: "Students become Internet researchers and learn about NASA satellites.",
+    },
+    {
+        image: 'https://www.exploratorium.edu/sites/default/files/styles/pod_small_wide_260_x_146/public/brightcove_stills/979328832001_4816128138001_4816082967001-vs.jpg?itok=Y-O_BTMq',
+        header: 'Truly Primary Pigments',
+        content: "Watch colors play in this quick exploration of layering hues.",
+    },
+    {
+        image: 'https://www.exploratorium.edu/sites/default/files/styles/pod_small_wide_260_x_146/public/brightcove_stills/979328832001_2083989461001_900944612-170-1357776360932.jpg?itok=pvOnpNxj',
+        header: 'The Exploratorium Shop',
+        content: "Visit the beating heart of the Exploratorium—our shop.",
+    },
+    {
+        image: 'https://www.exploratorium.edu/sites/default/files/styles/pod_small_wide_260_x_146/public/external-content/balloffbat.jpg?itok=DX2tEBho',
+        header: 'Minimizing Handle Forces',
+        content: "",
+    },
+    {
+        image: 'https://www.exploratorium.edu/sites/default/files/styles/pod_small_wide_260_x_146/public/brightcove_stills/979328832001_4570976020001_4443977120001-vs.jpg?itok=Le-WIjLF',
+        header: 'Indicating Electrolysis: Teaching tips',
+        content: "Got questions about electrolysis in the classroom? We've got answers.",
+    },
+    {
+        image: 'https://www.exploratorium.edu/sites/default/files/styles/pod_small_wide_260_x_146/public/pages/alzheimers.jpg?itok=jefRpbnQ',
+        header: 'Autonomy on Endless Trial',
+        content: "Consider the possible effects of early Alzheimer's diagnosis.",
+    },
 ]

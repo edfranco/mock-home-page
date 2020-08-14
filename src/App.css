@@ -30,3 +30,7 @@ main a{
     margin: 0 6em;
     padding: 2% 1rem 2em 1em;
 }
+
+main p{
+  margin: 1em 0;
+}
